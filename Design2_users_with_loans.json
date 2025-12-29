@@ -1,0 +1,18 @@
+[    
+    {
+      "user_id": "4",
+      "user_name": "David Lee",
+      "user_loans": [
+        { "loan_id": 4, "game_id": 4, "loan_checkout_date": {"$date": "2024-03-12T00:00:00.000+00:00"}, "loan_expected_return_date": {"$date": "2024-04-19T00:00:00.000+00:00"}, "loan_returned": false },
+        { "loan_id": 14, "game_id": 3, "loan_checkout_date": {"$date": "2024-04-12T00:00:00.000+00:00"}, "loan_expected_return_date": {"$date": "2024-04-19T00:00:00.000+00:00"}, "loan_returned": false }
+      ]
+    },
+    {
+        "user_id": "2",
+        "user_name": "Bob Smith",
+        "user_loans": [
+          { "loan_id": 2, "game_id": 2, "loan_checkout_date": {"$date": "2024-03-08T00:00:00.000+00:00"}, "loan_expected_return_date": {"$date": "2024-03-15T00:00:00.000+00:00"}, "loan_returned": false },
+          { "loan_id": 11, "game_id": 2, "loan_checkout_date": {"$date": "2024-03-10T00:00:00.000+00:00"}, "loan_expected_return_date": {"$date": "2024-03-17T00:00:00.000+00:00"}, "loan_returned": false }
+        ]
+    } 
+]  

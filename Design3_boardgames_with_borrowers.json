@@ -1,0 +1,19 @@
+[
+    {
+      "game_id": 3,
+      "game_title": "Chess",
+      "game_borrowers": [
+        { "user_id": 4, "user_name": "David Lee", "loan_checkout_date": "2024-04-12T00:00:00.000+00:00", "loan_returned": false, "load_id": 14 },
+        { "user_id": 5, "user_name": "Eve Adams", "loan_checkout_date": "2024-03-01T00:00:00.000+00:00", "loan_returned": false, "loan_id": 15 }
+      ]
+    },
+    {
+      "game_id": 7,
+      "game_title": "Exploding Kittens",
+      "game_borrowers": [
+        { "user_id": 6, "user_name": "Frank White", "loan_checkout_date": "2024-03-09T00:00:00.000+00:00", "loan_returned": false, "loan_id": 16 },
+        { "user_id": 8, "user_name": "Hank Green", "loan_checkout_date": "2024-03-06T00:00:00.000+00:00", "loan_returned": false, "loan_id": 18 }
+      ]
+    }
+  ]
+  

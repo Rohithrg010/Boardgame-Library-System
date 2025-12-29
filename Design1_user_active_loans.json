@@ -1,0 +1,16 @@
+[
+  {
+    "user_id": 4,
+    "user_name": "David Lee",
+    "user_email": "dl@yahoo.com",
+    "user_membership_type": "Premium",
+    "loan_id": [4, 14]
+  },
+  {
+    "user_id": 7,
+    "user_name": "Grace Miller",
+    "user_email": "gm@outlook.com",
+    "user_membership_type": "Standard",
+    "loan_id": [7, 17]
+  }
+]

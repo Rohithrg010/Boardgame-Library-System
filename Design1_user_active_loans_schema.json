@@ -1,0 +1,39 @@
+  {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "UserWithActiveLoanIDs",
+    "description": "Schema to define user_active_loans array structure",
+    "type": "object",
+    "properties": {
+      "user_id": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Unique ID of the user"
+      },
+      "user_name": {
+        "type": "string",
+        "minLength": 3,
+        "description": "Full name of the user"
+      },
+      "user_email": {
+        "type": "string",
+        "description": "Email id of user"
+      },
+      "user_membership_type": {
+        "type": "string",
+        "description": "Memership type of the user (Standard/Premium)"
+      },
+      "loan_id": {
+        "type": "array",
+        "description": "List of active loan IDs for this user (max 3)",
+        "items": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "maxItems": 3,  
+        "uniqueItems": true  
+      }
+    },
+    "required": ["user_id", "user_name", "loan_id"]
+  }
+  
+  
